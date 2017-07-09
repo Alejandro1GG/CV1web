@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+    font-family: 'Tw Cen Mt';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+aside#sidebar {
+    width: 25%;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+}
+
+aside#sidebar div.avatar {
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82, 81, 81, 0.33);
+}
+
+header#head1 {
+    background: #0a73bc;
+    padding-top: 20px;
+    box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
+    text-align: center;
+    height: 250px;
+}
+
+div.text h1 {
+    color: #fff;
+}
+
+div.text p {
+    color: #fff;
+}
+
+div.text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div, aside, header, section {
+    box-sizing: border-box;
+}
+
+section#skill {
+    padding: 20px 10%;
+    overflow-y: scroll;
+}
+
+section#skill h2 {
+    font-family: 'Roboto Medium';
+    color: #6d6d6d;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+ul#list-skill {
+    display: block;
+    list-style-type: none;
+    height: 400px;
+}
+
+ul#list-skill li {
+    display: block;
+    padding: 5px 0;
+}
+
+ul#list-skill li h3 {
+    font-size: 18px;
+    color: #6d6d6d;
+    padding: 5px 0;
+    font-family: 'Roboto Medium';
+}
+
+ul#list-skill div.level {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Este es un comentario en CSS 
+@mixin level-volume($vol){
+	height: 10px;
+	background: #0a73bc;
+	width: (100%/20)*$vol;
+}
+div.level-70{
+
+	include level-volume(14)
+}
+*/
+
+ul#list-skill div.level div.level-70 {
+    height: 10px;
+    background: #0a73bc;
+    width: 70%;
+    border-radius: 15px;
+}
+
+ul#list-skill div.level div.level-50 {
+    height: 10px;
+    background: #0a73bc;
+    width: 50%;
+    border-radius: 15px;
+}
+
+ul#list-skill div.level div.level-65 {
+    height: 10px;
+    background: #0a73bc;
+    width: 65%;
+    border-radius: 15px;
+}
+
+ul#list-skill div.level div.level-75 {
+    height: 10px;
+    background: #0a73bc;
+    width: 75%;
+    border-radius: 15px;
+}
+
+ul#list-skill div.level div.level-60 {
+    height: 10px;
+    background: #0a73bc;
+    width: 60%;
+    border-radius: 15px;
+}
+
+ul#list-skill div.level div.level-35 {
+    height: 10px;
+    background: #0a73bc;
+    width: 35%;
+    border-radius: 15px;
+}
+
+ul#list-skill div.level div.level-10 {
+    height: 10px;
+    background: #0a73bc;
+    width: 10%;
+    border-radius: 15px;
+}
+
+div.contenedor {
+    width: 75%;
+    left: 25%;
+    position: relative;
+}
+
+header#head {
+    background: #fff;
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83);
+}
+
+header#head::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div#contact-me, div#about-me {
+    padding: 20px 40px;
+    float: left;
+    width: 48%;
+}
+
+div#about-me {
+    border-left: 1px solid #ccc;
+}
+
+div#contact-me h1 {
+    color: #0a73bc;
+}
+
+div#about-me h1 {
+    color: #0a73bc;
+}
+
+div#about-me p {
+    color: #8a8a8a;
+    font-size: 18px;
+}
+
+div#contact-me li {
+    color: #8a8a8a;
+}
+
+ul.list-contact {
+    list-style-type: none;
+}
+
+ul.list-contact li {
+    display: block;
+    font-size: 18px;
+    padding: 3px;
+}
+
+section#bio {
+    background: #fff;
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section#bio div.img-full {
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+
+img.illustration {
+    width: 100%;
+}
+
+span.iconman {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'segoe ui';
+    letter-spacing: 2px;
+}
+
+span.iconman i.icon-man {
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+div.img-full div.avatar {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -45px;
+    left: 50px;
+    z-index: 100;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179, 176, 176, 0.28);
+}
+
+div.desc {
+    padding: 25px 10%;
+}
+
+div.desc div.tittle-name {
+    padding-left: 14%;
+    position: relative;
+}
+
+div.tittle-name h2 {
+    font-family: 'raleway medium';
+}
+
+div.tittle-name p {
+    font-family: 'raleway';
+}
+
+span.icon-bookmarks {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 40px;
+    color: #b9b9b9;
+}
+
+div.desc div.biodata {
+    padding: 10px;
+}
+
+div.biodata ul {
+    list-style-type: none;
+}
+
+div.biodata li {
+    margin-top: 15px;
+    padding: 3px 0;
+    font-size: 20px;
+}
+
+div.biodata p {
+    color: #aaa;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+hr.separator {
+    border: 1px solid #ccc;
+}
+
+.avatar1 {
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.tituloestudios {
+    font-family: 'raleway medium';
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+div.biodata span.titulo2 {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-pencil2 {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-pen {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-books {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-bubbles3 {
+    color: #0a73bc;
+}
+
+.biodata li {
+    font-family: 'Roboto';
+}
+
+div.biodata span.icon-user-tie {
+    color: #0a73bc;
+}
+
+.estudiante {
+    color: #0a73bc;
+}
+
+h1.perfil {
+    text-align: center;
+}
+
+.tituloestudios1 {
+    font-family: 'raleway medium';
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-style: bold;
+    color: #0a73bc;
+}
+
+div.biodata span.icon-bookmark {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-clipboard {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-accessibility {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-pencil {
+    color: #0a73bc;
+}
+
+div.biodata span.icon-cog {
+    color: #0a73bc;
+}

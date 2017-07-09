@@ -1,0 +1,30 @@
+body{
+	margin:0;
+	padding:0;
+	background: #EEE;
+	font-family: 'Tw Cen Mt';
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+
+}
+aside#sidebar {
+		width:30%;
+		height:100vh;
+		background: #fff;
+
+		header{
+			background: #3034E2;
+			padding-top:20px;
+			div.avatar{
+				background: #FFFFFF;
+				width: 150px;
+				height: 150px;
+				margin:0 auto;
+				border-radius:100%;
+
+			}
+		}
+
+}
