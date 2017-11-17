@@ -277,7 +277,7 @@ div.tittle-name p {
     font-family: 'raleway';
 }
 
-span.icon-bookmarks {
+#icon-bookmarks {
     display: inline-block;
     position: absolute;
     top: 5px;
@@ -338,7 +338,12 @@ div.biodata span.icon-pen {
 div.biodata span.icon-books {
     color: #0a73bc;
 }
-
+div.biodata span.icon-bookmarks {
+    color: #0a73bc;
+}
+div.biodata span.icon-book {
+    color: #0a73bc;
+}
 div.biodata span.icon-bubbles3 {
     color: #0a73bc;
 }
@@ -352,9 +357,30 @@ div.biodata span.icon-user-tie {
 }
 
 .estudiante {
+
+      text-decoration:none;
+   
     color: #0a73bc;
 }
+a.estudiante:hover{
+      transition: color 0.3s ease;
+    color: green;
 
+
+}
+
+.olimpiadas {
+
+      text-decoration:none;
+   
+    color: #bf00ff;
+}
+a.olimpiadas:hover{
+      transition: color 0.3s ease;
+    color:#fdc500;
+
+
+}
 h1.perfil {
     text-align: center;
 }
@@ -371,6 +397,10 @@ h1.perfil {
 div.biodata span.icon-bookmark {
     color: #0a73bc;
 }
+div.biodata span.icon-pie-chart {
+    color: #0a73bc;
+}
+
 
 div.biodata span.icon-clipboard {
     color: #0a73bc;
