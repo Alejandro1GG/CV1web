@@ -146,6 +146,12 @@ ul#list-skill div.level div.level-35 {
     width: 35%;
     border-radius: 15px;
 }
+ul#list-skill div.level div.level-45 {
+    height: 10px;
+    background: #0a73bc;
+    width: 45%;
+    border-radius: 15px;
+}
 
 ul#list-skill div.level div.level-10 {
     height: 10px;
@@ -389,6 +395,14 @@ h1.perfil {
     font-family: 'raleway medium';
     margin-top: 10px;
     font-size: 30px;
+    text-align: center;
+    font-style: bold;
+    color: #0a73bc;
+}
+.tituloestudios12{
+    font-family: 'raleway medium';
+    margin-top: 10px;
+    font-size: 26px;
     text-align: center;
     font-style: bold;
     color: #0a73bc;
