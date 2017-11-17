@@ -453,6 +453,13 @@ h1.perfil {
     font-style: bold;
     color: #0a73bc;
 }
+.tituloestudios5 {
+    font-family: 'raleway medium';
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: left;
+    color: #0a73bc;
+}
 .tituloestudios12{
     font-family: 'raleway medium';
     margin-top: 10px;
