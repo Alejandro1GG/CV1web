@@ -95,50 +95,73 @@ ul#list-skill div.level {
 
 /* Este es un comentario en CSS 
 @mixin level-volume($vol){
-	height: 10px;
-	background: #0a73bc;
-	width: (100%/20)*$vol;
+    height: 10px;
+    background: #0a73bc;
+    width: (100%/20)*$vol;
 }
 div.level-70{
 
-	include level-volume(14)
+    include level-volume(14)
 }
 */
 
 ul#list-skill div.level div.level-70 {
+
     height: 10px;
     background: #0a73bc;
     width: 70%;
     border-radius: 15px;
+
+     
 }
 
+
 ul#list-skill div.level div.level-50 {
+    
+
     height: 10px;
     background: #0a73bc;
     width: 50%;
     border-radius: 15px;
+
+     
 }
 
+
 ul#list-skill div.level div.level-65 {
+    
+
     height: 10px;
     background: #0a73bc;
     width: 65%;
     border-radius: 15px;
+
+     
 }
 
+
 ul#list-skill div.level div.level-75 {
+    
+
     height: 10px;
     background: #0a73bc;
     width: 75%;
     border-radius: 15px;
+
+     
 }
 
+
 ul#list-skill div.level div.level-60 {
+    
     height: 10px;
     background: #0a73bc;
     width: 60%;
     border-radius: 15px;
+
+     
 }
+
 
 ul#list-skill div.level div.level-35 {
     height: 10px;
@@ -381,12 +404,43 @@ a.estudiante:hover{
    
     color: #bf00ff;
 }
+
+
 a.olimpiadas:hover{
-      transition: color 0.3s ease;
-    color:#fdc500;
-
-
+    animation: 2.3s multicolor;
+    -webkit-animation: 2.3s multicolor;
 }
+@keyframes multicolor {
+    0% {
+        color: #bf00ff;
+    }
+    33% {
+        color: #fdc500;
+    }
+    66% {
+        color: #fc5520;
+    }
+    100% {
+        color: #46d1fd;
+    }
+}
+@-webkit-keyframes multicolor {
+   0% {
+        color: #bf00ff;
+    }
+    33% {
+        color: #fdc500;
+    }
+    66% {
+        color: #fc5520;
+    }
+    100% {
+        color: #46d1fd;
+    }
+}
+
+
+
 h1.perfil {
     text-align: center;
 }
