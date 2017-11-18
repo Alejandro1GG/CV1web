@@ -223,7 +223,7 @@ div#about-me h1 {
 
 div#about-me p {
     color: #8a8a8a;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 div#contact-me li {
@@ -236,7 +236,7 @@ ul.list-contact {
 
 ul.list-contact li {
     display: block;
-    font-size: 18px;
+    font-size: 24px;
     padding: 3px;
 }
 
@@ -303,7 +303,7 @@ div.tittle-name h2 {
 }
 
 div.tittle-name p {
-    font-family: 'raleway';
+    font-family: 'raleway medium';
 }
 
 #icon-bookmarks {
@@ -326,7 +326,7 @@ div.biodata ul {
 div.biodata li {
     margin-top: 15px;
     padding: 3px 0;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 div.biodata p {
@@ -492,4 +492,7 @@ div.biodata span.icon-pencil {
 
 div.biodata span.icon-cog {
     color: #0a73bc;
+}
+.justify{
+    text-align: justify;
 }
